@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: pashkinmv
+Build-Jdk: 1.7.0_40
+Package: ru.pashkin.jmt
+Created-By: Apache Maven 3.1.0
+Main-Class: ru.pashkin.jmt.Starter
+url: 
+mode: development
+Archiver-Version: Plexus Archiver
+
