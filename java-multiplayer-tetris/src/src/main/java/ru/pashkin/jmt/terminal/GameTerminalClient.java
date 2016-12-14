@@ -36,7 +36,7 @@ import java.awt.event.KeyListener;
 public class GameTerminalClient implements GameTerminal {
 
     private BoardTwoPlayers board = new BoardTwoPlayers();
-    private GameControllerClient gameController = new GameControllerClient();
+    private GameControllerClient gameController = new GameControllerClient(board);
     private final KeyListener keyListener = new KeyListenerOnePlayer(gameController);
     private final FocusAdapter focusListener = new FocusAdapter() {
         @Override
