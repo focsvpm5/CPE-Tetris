@@ -26,8 +26,8 @@ package ru.pashkin.jmt.controller;
 public class ScoreCounter {
 
     private int[] LEVELS = new int[]{200, 600, 1200, 2000, 3000, 4200, 5600, 7200, 9000, 11000, 13200};
-    private int SPEED_LOWEST = 5000;
-    private int SPEED_FASTEST = 90;
+    private int SPEED_LOWEST = 1500;
+    private int SPEED_FASTEST = 100;
 
     private int scores;
     private int level;
